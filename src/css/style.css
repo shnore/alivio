@@ -1,0 +1,295 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.header_section {
+  margin: 30px 0 31px 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo {
+  padding-right: 172px;
+}
+
+.nav_item {
+  color: #292929;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 72px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 60px;
+}
+.button {
+  background-color: #01996d;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  padding: 9px 50px;
+  transition: background-color 0.2s linear;
+}
+
+.way {
+  position: relative;
+  height: 895px;
+  background: url(../img/alivio_bg.jpg) center center/cover no-repeat;
+}
+.wrapper_way {
+  position: absolute;
+}
+.title_way {
+  margin-top: 175px;
+  margin-bottom: 30px;
+  margin-right: 275px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 74px;
+  color: #01996d;
+}
+
+.subheader {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #484848;
+}
+
+.way_button {
+  background-color: #01996d;
+  padding: 20px 50px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.information {
+  padding-top: 169px;
+}
+
+.info_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 132px;
+  margin-bottom: 52px;
+}
+.info_title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 71px;
+
+  color: #01996d;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 24px;
+  color: #424242;
+}
+
+.info_subtitle {
+  margin-top: 37px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: #424242;
+}
+
+.information_title {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 25px;
+  color: #000000;
+}
+.information_descr {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 31px;
+  color: #424242;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.info_number {
+  position: relative;
+  margin-bottom: 57px;
+}
+
+.information_title {
+  position: absolute;
+  left: 104px;
+  top: 57px;
+}
+
+.row {
+  position: relative;
+}
+
+.information_2 {
+  position: absolute;
+  top: 166px;
+}
+
+.information_3 {
+  position: absolute;
+  top: 58px;
+}
+
+.story {
+  margin-top: 235px;
+  min-height: 922px;
+  background-color: #245852;
+}
+
+.wrapper_story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 35px;
+}
+
+.story_image {
+  padding-top: 229px;
+}
+
+.story_text {
+  padding-top: 309px;
+  color: #fff;
+}
+
+.title_story {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 55px;
+}
+
+.subheader_story {
+  margin-top: 33px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  margin-bottom: 57px;
+}
+
+.story_button {
+  background-color: #01996d;
+  padding: 20px 50px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.product {
+  padding: 120px 275px 120px 275px;
+  position: relative;
+}
+.product_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product_img {
+  min-height: 373px;
+  min-width: 538px;
+  background: rgba(1, 153, 109, 0.2);
+  border-radius: 18.1125px;
+}
+
+.img_modal {
+  position: absolute;
+  top: 3px;
+  transform: translateX(-38%) translateY(167%);
+}
+
+.title_product {
+  font-family: "Georgia";
+  font-style: normal;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 50px;
+
+  color: #01996d;
+  line-height: 55px;
+}
+
+.subheader_product {
+  margin-top: 33px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  margin-bottom: 57px;
+}
+
+.product_button {
+  background-color: #01996d;
+  padding: 20px 50px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #01996d;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.label_product {
+  padding: 0;
+  font-weight: 500;
+  font-size: 24px;
+  color: #424242;
+}
+
+footer {
+  padding-top: 97px;
+  min-height: 654px;
+  min-width: 1920px;
+  background: #245852;
+}
+
+.footer_menu {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 60px;
+  list-style-type: none;
+  color: #ffffff;
+  text-align: left;
+}
+
+.first_item {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+}
+
+.menu_item {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+}
